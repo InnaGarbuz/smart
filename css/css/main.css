@@ -1,0 +1,67 @@
+body {
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+a {
+  text-decoration: none;
+  color: #03a9f4; }
+
+nav {
+  width: 100%;
+  background: #fff;
+  padding: 10px 0; }
+  nav .logo {
+    width: 100%;
+    padding: 10px 0; }
+    nav .logo a {
+      text-transform: uppercase;
+      font-size: 25px; }
+      nav .logo a span {
+        font-weight: 600;
+        color: #aaee79; }
+  nav .phone {
+    text-align: center; }
+    nav .phone h2 {
+      color: #000;
+      font-size: 15px; }
+    nav .phone a {
+      font-size: 20px; }
+
+header {
+  width: 100%;
+  height: 500px;
+  background: url("../img/a2928f6342f3d199d91d2574343580cf.png") no-repeat;
+  background-size: cover; }
+
+.form {
+  width: 25%;
+  padding: 20px;
+  background: #009EE3;
+  float: right;
+  margin: 0 74px;
+  color: #fff; }
+  .form .form-input input {
+    padding: 8px 20px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 0;
+    background: white; }
+
+/*# sourceMappingURL=main.css.map */
